@@ -1,76 +1,38 @@
-* {
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-body {
-  font-family: 'Rubik', sans-serif;
-  background: #f9f9f9;
+  background: #fafafa;
   color: #333;
 }
-.navbar {
+
+header {
   background: #222;
-  color: #fff;
-  padding: 1rem 2rem;
+  color: white;
+  padding: 15px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
-.navbar ul {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
+
+.logo {
+  height: 50px;
 }
-.navbar a {
-  color: #fff;
+
+nav a {
+  color: white;
+  margin: 0 10px;
   text-decoration: none;
 }
-.hero {
-  text-align: center;
-  padding: 5rem 2rem;
-  background: linear-gradient(to right, #4facfe, #00f2fe);
-  color: #fff;
-}
-.hero h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-.hero .btn {
-  display: inline-block;
-  margin-top: 1.5rem;
-  padding: 0.75rem 1.5rem;
-  background: #fff;
-  color: #00c6ff;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: 600;
-}
-.features {
-  padding: 4rem 2rem;
-  text-align: center;
-}
-.features .cards {
+
+.gallery {
   display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  justify-content: center;
-  margin-top: 2rem;
+  justify-content: space-around;
+  padding: 20px;
 }
-.features .card {
-  background: #fff;
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  min-width: 200px;
-}
-.contact {
-  padding: 3rem 2rem;
-  text-align: center;
-  background: #eee;
-}
-footer {
-  text-align: center;
-  padding: 1rem;
-  background: #333;
-  color: #ccc;
+
+.gallery img {
+  width: 30%;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
